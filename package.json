@@ -1,0 +1,24 @@
+{
+    "homepage": "https://yangkwa.github.io/GreenRush",
+    "name": "greenrush",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "devDependencies": {
+        "gh-pages": "^5.0.0",
+        "typescript": "^5.0.2",
+        "vite": "^4.3.9"
+    },
+    "dependencies": {
+        "@types/js-cookie": "^3.0.3",
+        "kaboom": "^3000.1.13",
+        "typescript-cookie": "^1.0.6"
+    }
+}
